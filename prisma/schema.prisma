@@ -11,10 +11,12 @@ datasource db {
 }
 
 model User {
-  id       Int    @id @default(autoincrement())
-  userName String
-  fullName String
-  email    String @unique
-  password String
-  mobile   String
+  id          Int     @id @default(autoincrement())
+  userName    String
+  fullName    String
+  email       String  @unique
+  password    String
+  mobile      String  @unique
+  otp         String  @default("00000")
+  otpVerified Boolean @default(false)
 }
