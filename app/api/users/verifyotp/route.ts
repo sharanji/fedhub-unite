@@ -18,7 +18,8 @@ export async function POST(req: Request, res: NextResponse) {
             data: {
                 otpVerified: true,
             },
-        })
+        });
+        user.otpVerified = true;
     }
     else {
         return NextResponse.json({
