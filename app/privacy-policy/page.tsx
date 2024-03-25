@@ -4,35 +4,26 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div>
-      <title>Privacy Policy for Fedhub Unite - TermsFeed</title>
+      <title>Privacy Policy for Fedhub Unite - </title>
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <Link
+      <link
         rel="stylesheet"
         type="text/css"
-        href="/public/livelink/css/livelink.css"
+        href="https://www.termsfeed.com/public/livelink/css/livelink.css"
       />
       <meta name="robots" content="noindex" />
-      <meta
-        property="og:title"
-        content="Privacy Policy for Fedhub Unite - TermsFeed"
-      />
+      <meta property="og:title" content="Privacy Policy for Fedhub Unite" />
       <meta
         property="og:image"
         content="https://www.termsfeed.com/public/images/meta_og_image_livelink.png"
       />
       <meta property="og:image:width" content="1280" />
       <meta property="og:image:height" content="720" />
-      <meta
-        property="og:url"
-        content="https://www.termsfeed.com/live/30c8535f-41c5-45e1-98c4-34a24e43038b"
-      />
-      <meta property="og:site_name" content="TermsFeed" />
-      <link
-        rel="canonical"
-        href="https://www.termsfeed.com/live/30c8535f-41c5-45e1-98c4-34a24e43038b"
-      />
+
+      <meta property="og:site_name" content="Fedhub" />
+
       <div className="page">
         <div className="header">
           <div className="container">
